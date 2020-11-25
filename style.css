@@ -61,3 +61,10 @@
 .preloader.hide::after{
   right: -100%;
 }
+
+@media (max-width: 992px) {
+  .preloader__gif {
+    width: 150px;
+    height: 150px;
+  }
+} 
